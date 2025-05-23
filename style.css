@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8f0; /* tom suave pastel */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+
+header {
+  background-color: #ffc880f8;
+  text-align: center;
+  padding: 20px;
+}
+
+.top-image {
+  width: 100%;
+  height: auto;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3e3780;
+
+  font-weight: bold;
+}
+
+.section{
+  padding:20px
+}
+
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: orange;
+  color: blue;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  background-color: #ffe0b2;
+  padding: 10px;
+}
+
+.pata-icon {
+  width: 50px;
+}
+ul {
+  list-style: none; /* remove os marcadores */
+  padding: 0;        /* remove o recuo à esquerda */
+  margin: 0;         /* zera margem, se necessário */
+  text-align: left; /* se quiser esquerdo o conteúdo */
+}
+
+nav ul li {
+  display: inline-block; /* alinha os itens horizontalmente, se for um menu */
+  margin: 0 10px;         /* espaçamento entre eles */
+}
+
